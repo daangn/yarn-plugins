@@ -1,3 +1,9 @@
 {
-  "private": true
+  "private": true,
+  "workspaces": [
+    "yarn-plugin-docker-build"
+  ],
+  "devDependencies": {
+    "@yarnpkg/builder": "^3.1.0"
+  }
 }
